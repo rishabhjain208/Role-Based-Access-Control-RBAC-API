@@ -28,8 +28,16 @@ This is a Node.js application that demonstrates **Authentication**, **Authorizat
 - Postman (optional, for API testing)
 
 ### Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/rbac-app.git
    cd rbac-app
+
+
+Create a .env file in the root directory and configure the following:
+
+env
+Copy code
+PORT=9000
+MONGO_URI=your-mongodb-connection-string
+JWT_SECRET=your-jwt-secret
